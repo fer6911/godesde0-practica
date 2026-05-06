@@ -7,4 +7,5 @@ import (
 func main() {
 	variables.MuestrorEnteros()
 	variables.MuestrorRestos()
+	variables.ConviertoTexto(123)
 }
