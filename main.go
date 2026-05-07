@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"godesde0-practica/ejercicios"
+	"godesde0-practica/teclado"
 )
 
 func main() {
@@ -10,6 +9,7 @@ func main() {
 	// variables.MuestrorRestos()
 	// variables.ConviertoTexto(123)
 	// condicionales.CondicionIF()
-	_, mensaje := ejercicios.Ejercicio1("5")
-	fmt.Println(mensaje)
+	// _, mensaje := ejercicios.Ejercicio1("5")
+	// fmt.Println(mensaje)
+	teclado.IngresarNumeros()
 }
