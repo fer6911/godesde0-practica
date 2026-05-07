@@ -1,11 +1,15 @@
 package main
 
 import (
-	"godesde0-practica/variables"
+	"fmt"
+	"godesde0-practica/ejercicios"
 )
 
 func main() {
-	variables.MuestrorEnteros()
-	variables.MuestrorRestos()
-	variables.ConviertoTexto(123)
+	// variables.MuestrorEnteros()
+	// variables.MuestrorRestos()
+	// variables.ConviertoTexto(123)
+	// condicionales.CondicionIF()
+	_, mensaje := ejercicios.Ejercicio1("5")
+	fmt.Println(mensaje)
 }
