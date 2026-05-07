@@ -1,7 +1,7 @@
 package main
 
 import (
-	"godesde0-practica/teclado"
+	"godesde0-practica/iteraciones"
 )
 
 func main() {
@@ -11,5 +11,6 @@ func main() {
 	// condicionales.CondicionIF()
 	// _, mensaje := ejercicios.Ejercicio1("5")
 	// fmt.Println(mensaje)
-	teclado.IngresarNumeros()
+	// teclado.IngresarNumeros()
+	iteraciones.Iterar()
 }
