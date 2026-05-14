@@ -1,7 +1,7 @@
 package main
 
 import (
-	"godesde0-practica/iteraciones"
+	"godesde0-practica/files"
 )
 
 func main() {
@@ -12,5 +12,11 @@ func main() {
 	// _, mensaje := ejercicios.Ejercicio1("5")
 	// fmt.Println(mensaje)
 	// teclado.IngresarNumeros()
-	iteraciones.Iterar()
+	// iteraciones.Iterar()
+	// mensaje := ejercicios.TablaMultiplicar()
+	// fmt.Println(mensaje)
+	// files.GrabaTabla()
+	// files.SumaTablaArchivo()
+	files.LeoArchivo()
+
 }
